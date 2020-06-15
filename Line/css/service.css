@@ -1,0 +1,26 @@
+@charset 'utf-8';
+
+.service li{
+  width:280px;
+  margin:0 60px 60px 0;
+}
+.service li:nth-child(3){
+  margin-right:0;
+}
+.service h3{
+  margin:15px 0;
+}
+.service h3.time::after{
+  content:'';
+  display:inline-block;
+  width:14px;
+  height:14px;
+  margin:0 0 -1px 7px;
+  background:url('../images/icons_set.png') -674px 0;
+  background-size:1101px;
+}
+.service p{
+  font-weight:100;
+  font-size:13px;
+  line-height:20px;
+}

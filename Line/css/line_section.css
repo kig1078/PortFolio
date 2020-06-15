@@ -1,0 +1,30 @@
+@charset 'utf-8';
+
+.section{
+  margin-bottom:80px;
+}
+.section li{
+  width:450px;
+}
+.section h2{
+  margin:50px 0 30px;
+  font-size:54px;
+}
+.section p{
+  font-size:14px;
+  line-height:1.8;
+  margin-bottom:30px;
+}
+.section.sticker .sec_img{
+  margin-left:-150px;
+}
+.section.game .sec_img{
+  margin-left:-150px;
+}
+a[class*=more]{
+  color:#00e;
+  text-decoration:underline;
+}
+a[class*=more]:hover{
+  text-decoration:none;
+}

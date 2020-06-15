@@ -1,0 +1,51 @@
+@charset 'utf-8';
+
+.header{
+  position:fixed;
+  left:0;
+  top:0;
+  padding:23px 0 22px;
+  width:100%;
+  background:white;
+  border-bottom:3px solid #3b3b3b;
+  z-index:9999;
+}
+.header_left>div:first-child{
+  width:60px;
+  overflow:hidden;
+  margin-right:20px;
+}
+.header_left li a{
+  font-size:12px;
+}
+.header_left li a span{
+  display:inline-block;
+  width:1px;
+  height:12px;
+  background:#ccc;
+  margin:0 15px;
+}
+img[src*=logo_img]{
+  width:100%;
+}
+select,.header_right>a{
+  display:inline-block;
+}
+select{
+  padding:0 20px 5px;
+  border-color:#00b900;
+}
+.header_right>a{
+  background-image:url('/images/icon_set.png');
+  text-indent:-3000px;
+}
+.header_right>a:first-of-type{
+  width:46px;
+  height:18px;
+  background-position:-1057px 0;
+}
+.header_right>a:last-of-type{
+  width:10px;
+  height:18px;
+  background-position:-817px 0;
+}

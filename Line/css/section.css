@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+.section{
+  margin-bottom:80px;
+}
+.section li{
+  width:450px;
+}
+.section h2{
+  margin:50px 0 30px;
+  font-size:54px;
+}
+.section p{
+  font-size:14px;
+  line-height:1.8;
+}
+.section.sticker .sec_img{
+  margin-left:-150px;
+}
