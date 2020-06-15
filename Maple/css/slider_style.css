@@ -1,0 +1,23 @@
+@charset 'utf-8';
+
+.swiper-container{
+  position:absolute;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+  margin:0;
+}
+.swiper-pagination-bullet{
+  background:white;
+  opacity:1;
+}
+.swiper-pagination-bullet-active{
+  background:blue;
+  opacity:1;
+  color:white;
+}
+.swiper-container .swiper-wrapper .swiper-slide a img{
+  padding:100px;
+  margin-left:350px;
+  width:1300px;
+  height:750px;
+}

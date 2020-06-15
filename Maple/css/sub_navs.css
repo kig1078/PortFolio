@@ -1,0 +1,70 @@
+@charset 'utf-8';
+
+.sub_navs{
+  visibility:hidden;
+  position:absolute;
+  top:150px;
+  left:350px;
+}
+.woman_sub_nav{
+  top:200px;
+}
+.sub_navs li{
+  margin-bottom:20px;
+}
+.sub_navs li p{
+  font-size:30px;
+  font-family: 'Architects Daughter', cursive;
+  font-weight:500;
+}
+.sub_navs li:hover p{
+  color:#ccb091;
+}
+.clothes_category{
+  visibility:hidden;
+  position:absolute;
+  top:100px;
+  left:500px;
+}
+.clothes_category li{
+  margin-right:20px;
+  transition:0.3s;
+}
+.item_first{
+  margin-bottom:20px;
+}
+.item_first li:last-child(){
+  margin:0;
+}
+.clothes_img{
+  display:inline-block;
+  width:250px;
+  height:350px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  position:relative;
+}
+.clothes_img>a{
+  width:100%;
+  height:100%;
+  background:transparent;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.clothes_img .item_tag{
+  position:absolute;
+  top:5%;
+  left:10%;
+  width:30px;
+  height:15px;
+  border-radius:5px;
+  font-size:10px;
+  font-weight:bold;
+  text-align:center;
+  line-height:15px;
+  color:white;
+  background:red;
+}

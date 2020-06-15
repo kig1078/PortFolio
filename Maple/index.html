@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Jong Kab">
+  <meta property="og:title" content="Jong-Kab PortFolio">
+  <meta property="og:url" content="http://kig1078.dothome.co.kr/PortFolio/">
+  <link rel="shortcut icon" href="./images/M_logo.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- jquery -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- swiper_link -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <!-- main_slider_script -->
+  <script src="./js/main_slider.js"></script>
+  <!-- nav_script -->
+  <script src="./js/nav.js"></script>
+  <!-- menu_btn_script -->
+  <script src="./js/menu_btn.js"></script>
+  <!-- login_form_script -->
+  <script src="./js/login.js"></script>
+  <!-- header_scroll_script -->
+  <script src="./js/header_scroll.js"></script>
+
+  <title>Maple Lab</title>
+
+  <!-- reset_css -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- font_css -->
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Black+Han+Sans&family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+  <!-- main/nav_css -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- sub_navs_css -->
+  <link rel="stylesheet" href="./css/sub_navs.css">
+  <link rel="stylesheet" href="./css/login_form.css">
+  <!-- items_css -->
+  <link rel="stylesheet" href="./css/man_items.css">
+  <link rel="stylesheet" href="./css/woman_items.css">
+  <!-- slider_css -->
+  <link rel="stylesheet" href="./css/slider_style.css">
+  <!-- footer_css -->
+  <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="container">
+      <!-- login form -->
+      <div class="login_form">
+        <div class="content">
+          <div class="login_tit clear_fix">
+            <p class="fl_left">로그인</p>
+            <img class="fl_right login_close" src="images/close_icon.png" alt="close" id="close">
+          </div>
+          <form>
+            <input class="id_pass" type="text" placeholder="아이디">
+            <input class="id_pass" type="password" placeholder="비밀번호">
+            <input type="checkbox" id="save_id">
+            <label for="save_id">아이디 저장</label>
+            <input type="button" value="로그인">
+          </form>
+          <ul class="login_menu">
+            <li><a href="#">ID/PW 찾기</a></li>
+            <li></li>
+            <li><a href="#">회원가입</a></li>
+            <li></li>
+          </ul>
+          <ul class="sns_login">
+            <li><a href="#"><img class="login_sns" src="images/facebook_icon.png" alt="facebook"></a></li>
+            <li><a href="#"><img class="login_sns" src="images/instagram_icon.png" alt="instagram"></a></li>
+            <li><a href="#"><img class="login_sns" src="images/kakao_icon.png" alt="kakao"></a></li>
+            <li><a href="#"><img class="login_sns" src="images/youtube_icon.png" alt="youtube"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <a href="#man_pants">
+              <img src="./images/slider_slacks_01.png" alt="slider_slacks_01">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#man_top">
+              <img src="./images/slider_daily.png" alt="slider_daily">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#man_pants">
+              <img src="./images/slider_slacks_02.png" alt="slider_slacks_02">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="void_btn">
+        <ul>
+          <li class="login_menu_btn"></li>
+          <li class="list_menu_btn"></li>
+          <li class="close_btn"></li>
+        </ul>
+      </div>
+      <header class="header navs">
+        <nav class="glo_nav">
+          <ul>
+            <li class="main_logo" id="main_logo">
+              <a href="./index.html">
+                <img src="./images/M_logo.png" alt="main_logo" style="width:40px">
+                MAPLE LAB
+              </a>
+            </li>
+            <li id="man_nav_hover">
+              <p>MAN</p>
+            </li>
+            <li id="woman_nav_hover">
+              <p>WOMAN</p>
+            </li>
+            <li id="community_nav_hover">
+              <a href="./community.html">COMMUNITY</a>
+            </li>
+            <li id="event_nav_hover">
+              <a href="./event.html">EVENT</a>
+            </li>
+            <li class="QnA" id="QnA">
+              <a href="#">
+                <img src="./images/QnA_icon.png" alt="QnA_icon" style="width:20px">
+                문의
+              </a>
+            </li>
+          </ul>
+          <ul class="sns">
+            <li><a href="http://www.facebook.com" target="_blank"><img src="./images/facebook_icon.png" alt="facebook"></a></li>
+            <li><a href="http://www.instagram.com" target="_blank"><img src="./images/instagram_icon.png" alt="instagram"></a></li>
+            <li><a href="http://www.kakao.com" target="_blank"><img src="./images/kakao_icon.png" alt="kakao"></a></li>
+            <li><a href="http://www.youtube.com" target="_blank"><img src="./images/youtube_icon.png" alt="youtube"></a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="items">
+        <div class="man_sub_nav sub_navs items_content" id="man_sub_nav">
+          <ul>
+            <li id="man_outer_hover">
+              <p>Outer</p>
+            </li>
+            <li id="man_top_hover">
+              <p>Top</p>
+            </li>
+            <li id="man_shirts_hover">
+              <p>Shirts</p>
+            </li>
+            <li id="man_pants_hover">
+              <p>Pants</p>
+            </li>
+            <li id="man_shoes_hover">
+              <p>Shoes</p>
+            </li>
+            <li id="man_acc_hover">
+              <p>Acc</p>
+            </li>
+            <li id="man_bag_hover">
+              <p>Bag</p>
+            </li>
+            <li id="man_suit_hover">
+              <p>Suit</p>
+            </li>
+          </ul>
+        </div>
+        <div class="woman_sub_nav sub_navs items_content" id="woman_sub_nav">
+          <ul>
+            <li id="woman_blouse_hover">
+              <p>Blouse</p>
+            </li>
+            <li id="woman_outer_hover">
+              <p>Outer</p>
+            </li>
+            <li id="woman_knit_hover">
+              <p>Knit / Tee</p>
+            </li>
+            <li id="woman_skirt_hover">
+              <p>Skirt</p>
+            </li>
+            <li id="woman_pants_hover">
+              <p>Pants</p>
+            </li>
+            <li id="woman_acc_hover">
+              <p>Acc</p>
+            </li>
+            <li id="woman_bag_hover">
+              <p>Bag</p>
+            </li>
+            <li id="woman_shoes_hover">
+              <p>Shoes</p>
+            </li>
+            <li id="woman_Jewelry_hover">
+              <p>Jewelry</p>
+            </li>
+          </ul>
+        </div>
+        <div class="man_items items_content">
+          <div class="man_outer clothes_category" id="man_outer">
+            <ul class="man_outer_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+            <ul class="man_outer_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+          </div>  
+          <div class="man_top clothes_category" id="man_top">
+            <ul class="man_top_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+            <ul class="man_top_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+          </div>
+          <div class="man_shirts clothes_category" id="man_shirts">
+            <ul class="man_shirts_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+            <ul class="man_shirts_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+          </div>
+          <div class="man_pants clothes_category" id="man_pants">
+            <ul class="man_pants_first item_first">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+            <ul class="man_pants_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+          </div>
+          <div class="man_shoes clothes_category" id="man_shoes">
+            <ul class="man_shoes_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+            <ul class="man_shoes_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+          </div>
+          <div class="man_acc clothes_category" id="man_acc">
+            <ul class="man_acc_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+            <ul class="man_acc_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+          </div>
+          <div class="man_bag clothes_category" id="man_bag">
+            <ul class="man_bag_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+            <ul class="man_bag_second item_second">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+          </div>
+          <div class="man_suit clothes_category" id="man_suit">
+            <ul class="man_suit_first item_first">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+            <ul class="man_suit_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="woman_items items_content">
+          <div class="woman_blouse clothes_category" id="woman_blouse">
+            <ul class="woman_blouse_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+            <ul class="woman_blouse_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+          </div>
+          <div class="woman_outer clothes_category" id="woman_outer">
+            <ul class="woman_outer_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+            <ul class="woman_outer_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+          </div>
+          <div class="woman_knit clothes_category" id="woman_knit">
+            <ul class="woman_knit_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+            <ul class="woman_knit_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+          </div>
+          <div class="woman_skirt clothes_category" id="woman_skirt">
+            <ul class="woman_skirt_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+            <ul class="woman_skirt_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+          </div>
+          <div class="woman_pants clothes_category" id="woman_pants">
+            <ul class="woman_pants_first item_first">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+            <ul class="woman_pants_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+          </div>
+          <div class="woman_acc clothes_category" id="woman_acc">
+            <ul class="woman_acc_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+            <ul class="woman_acc_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+          </div>
+          <div class="woman_bag clothes_category" id="woman_bag">
+            <ul class="woman_bag_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+            <ul class="woman_bag_second item_second">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+          </div>
+          <div class="woman_shoes clothes_category" id="woman_shoes">
+            <ul class="woman_shoes_first item_first">
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">New</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+            <ul class="woman_shoes_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+          </div>
+          <div class="woman_jewelry clothes_category" id="woman_jewelry">
+            <ul class="woman_jewelry_first item_first">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+            </ul>
+            <ul class="woman_jewelry_second item_second">
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+              <li class="clothes_img"><a href="./index.html"><span class="item_tag">Hot</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="logo">
+        <a class="clear_fix" href="index.html">
+          <div class="logo_top fl_left">
+            <img src="./images/M_logo.png" alt="bottom_logo">
+          </div>
+          <div class="logo_txt fl_left">
+            <p>MAPLE LAB</p>
+          </div>
+        </a>
+      </div>
+      <div>
+        <p>
+          서울 강북구 ○○로 123 (○○로0가) ○○○건물 ○동 00~00층 Tel : 02-1234-5678 , Fax : 02-1234-5678<br>
+          Copyright 1993 MAPLE LAB., All rights Reserved.
+        </p>
+      </div>
+      <div>
+        <div class="links">
+          <select id="link_site" title="원하는 사이트를 선택하세요">
+            <option value="https://www.naver.com">네이버</option>
+            <option value="https://www.google.com">구글</option>
+            <option value="https://www.daum.net">다음</option>
+            <option value="https://www.coupang.com">쿠팡</option>
+            <option value="https://www.tmon.co.kr">티몬</option>
+          </select>
+          <input type="button" value="go" title="새창으로 열립니다.">
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html> 

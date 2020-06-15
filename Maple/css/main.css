@@ -1,0 +1,115 @@
+@charset 'utf-8';
+
+.container{
+  position:relative;
+  width:100%;
+  height:950px;
+  background:rgba(255, 239, 222,0.5);
+}
+.header{
+  position:fixed;
+  height:100%;
+  z-index:1000;
+  width:200px;
+  padding:100px 0 0 100px;
+  background:white;
+  transition:0.5s;
+}
+/* .row{
+  height:1080px;
+} */
+/* .glo_nav{
+  position:fixed;
+  height:100%;
+  z-index:99998;
+  width:200px;
+  left:-100%;
+  padding:100px 0 0 100px;
+  background:white;
+} */
+.swiper-container{
+  width:100%;
+}
+.glo_nav li{
+  margin-bottom:20px;
+  border-bottom:1px solid #ccb091;
+}
+.glo_nav li *{
+  font-size:20px;
+  font-family:'Architects Daughter', cursive;
+  font-weight:700;
+}
+.glo_nav .QnA a{
+  line-height:20px;
+  color:#ccb091;
+  font-weight:bold;
+}
+.glo_nav li:hover *{
+  color:#ccb091;
+  font-weight:bold;
+}
+.glo_nav .main_logo a{
+  line-height:40px;
+  color:#ccb091;
+  font-size:23px;
+  font-weight:bold;
+  font-family: 'Black Han Sans', sans-serif;
+}
+#community_nav_hover::after, #event_nav_hover::after{
+  content:'click!';
+  font-weight:bold;
+  visibility:hidden;
+}
+#community_nav_hover:hover::after, #event_nav_hover:hover::after{
+  color:red;
+  visibility:visible;
+}
+.QnA a{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.sns{
+  position:absolute;
+  right:70px;
+  bottom:100px;
+  display:inline-block;
+}
+.sns li{
+  display:inline-block;
+  border:none;
+}
+.sns img{
+  width:40px;
+}
+.void_btn{
+  position:fixed;
+  z-index:99999;
+  float:left;
+  top:30px;
+  left:100px;
+}
+.void_btn li{
+  display:inline-block;
+  background-size:cover;
+  margin-right:15px;
+  width:30px;
+  height:30px;
+}
+.void_btn .login_menu_btn{
+  background-image:url('../images/login_btn.png');
+}
+.void_btn .login_menu_btn:hover{
+  background-image:url('../images/login_btn_c.png');
+}
+.void_btn .list_menu_btn{
+  background-image:url('../images/list_menu_icon.png');
+}
+.void_btn .list_menu_btn:hover{
+  background-image:url('../images/list_menu_icon_c.png');
+}
+.void_btn .close_btn{
+  background-image:url('../images/close_icon.png');
+  margin:0;
+}
+.void_btn .close_btn:hover{
+  background-image:url('../images/close_icon_c.png');
+}

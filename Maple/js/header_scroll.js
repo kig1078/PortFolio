@@ -1,0 +1,11 @@
+$(window).scroll(function(){
+  scrTop=$(window).scrollTop();
+  console.log(scrTop);
+  if(scrTop>=130){
+    $('.navs').css('height','700px').css('transition','0.2s');
+    $('.sns').css('bottom','30px');
+  }else{
+    $('.navs').css('height','100%').css('transition','0.5s');
+    $('.sns').css('bottom','100px');
+  }
+});
