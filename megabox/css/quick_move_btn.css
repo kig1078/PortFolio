@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+/* quick_move_btn */
+.quick_move_btn{
+  padding:5px 0;
+  cursor:pointer;
+  position:fixed;
+  right:50px;
+  top:50px;
+  z-index:2;
+}
+.quick_move_btn p{
+  width:50px;
+  height:30px;
+  font-size:12px;
+  line-height:30px;
+  color:white;
+  text-align:center;
+  background-color:rgba(0,0,0,0.3);
+}
