@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+.section.banner{
+  margin-bottom:40px;
+}
+.section.banner li{
+  float:left;
+}
+.section.banner li img{
+  width:100%;
+}

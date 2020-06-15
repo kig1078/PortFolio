@@ -1,0 +1,99 @@
+@charset 'utf-8';
+
+.section.header{
+  border-bottom:2px solid #ba000c;
+}
+.section.header ul{
+  padding:17px 0;
+}
+.section.header li{
+  float:left;
+}
+.section.header li div{
+  display:inline-block;
+  margin-right:24px;
+}
+.section.header li a{
+  font-weight:bold;
+  font-size:12px;
+  color:#333;
+}
+.section.header li a:hover{
+  color:#ba000c;
+}
+.icons::before{
+  content:'';
+  display:inline-block;
+  width:12px;
+  height:12px;
+  margin-right:6px;
+  background-image:url(../images/icon_set.svg); 
+  background-size:400%;
+}
+.icons.icon01::before{
+  background-position:0 -12px;
+}
+.icons.icon01:hover::before{
+  background-position:0 0;
+}
+.icons.icon02::before{
+  background-position:36px 0;
+}
+.icons.icon02:hover::before{
+  background-position:12px 0;
+}
+.icons.icon03::before{
+  background-position:24px 0;
+}
+.icons.icon03:hover::before{
+  background-position:12px -12px;
+}
+.section.header li:nth-child(2){
+  text-align:center;
+}
+.section.header li:nth-child(2) h1{
+  font-size:14px;
+}
+.section.header li:nth-child(2) a:hover{
+  color:#333;
+}
+.section.header li:nth-child(3){
+  text-align:right;
+}
+.section.header li:nth-child(3) div{
+  margin-right:0;
+  margin-left:24px;
+}
+.section.header li:nth-child(3) a{
+  color:#999;
+}
+.section.header li:nth-child(3) a:hover{
+  color:#333;
+}
+.nav>div{
+  float:left;
+  padding:10px 0 5px;
+  text-align:center;
+  transition:0.3s;
+}
+.nav div a{
+  font-weight:bold;
+  font-size:18px;
+  color:#333;
+  transition:0.3s;
+}
+.nav div a span{
+  font-weight:normal;
+  font-size:12px;
+  color:white;
+  visibility:hidden;
+}
+.nav div:hover{
+  background:#ba000c;
+}
+.nav div:hover a{
+  color:white;
+}
+.nav div:hover a span{
+  visibility:visible;
+}

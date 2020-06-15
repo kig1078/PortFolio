@@ -1,0 +1,35 @@
+@charset 'utf-8';
+.section.main_banner{
+  margin-bottom:46px;
+}
+.section.main_banner .row{
+  width:100%;
+}
+.bx-wrapper {
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  border:none;
+  background:none;
+}
+.bx-controls-direction{
+  display:none;
+}
+.bx-wrapper .bx-pager{
+  bottom:10px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+  background:#fff;
+  width:15px;
+  height:15px;
+  border-radius:7.5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover{
+  background:#ba000c;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:focus{
+  background:white;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active{
+  background:#ba000c;
+}
