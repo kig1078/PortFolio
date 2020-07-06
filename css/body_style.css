@@ -192,10 +192,10 @@
     transition:0.3s;
   }
   #services div.icon_skew:nth-child(1):hover .progress::before{
-    width:80%;
+    width:75%;
   }
   #services div.icon_skew:nth-child(2):hover .progress::before{
-    width:90%;
+    width:70%;
   }
   #services div.icon_skew:nth-child(3):hover .progress::before{
     width:90%;
@@ -295,7 +295,7 @@
   .portfolio-modal .modal-content p.item-intro{
     font-size:16px;
     font-style:italic;
-    margin:20px 0 30px;
+    margin:10px 0 10px;
     font-family:'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
   }
   .portfolio-modal .modal-content ul.list-inline{
